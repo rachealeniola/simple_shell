@@ -4,7 +4,7 @@
  * output - decide what to do with @args
  *
  * @args: array of argument strings
- *
+ * @av: arg list
  * Return: void
  */
 void output(char **args, char **av)
@@ -21,9 +21,8 @@ void output(char **args, char **av)
 
 /**
  * execute - execute a program
- *
  * @args: array of argument strings
- *
+ * @av: srg list
  * Return: void
  */
 void execute(char **args, char **av)
